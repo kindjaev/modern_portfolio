@@ -13,7 +13,7 @@ function Portfolio() {
     {id: 1, img: IMG2, linkCode: "https://github.com/kindjaev/ecommerce_sanity_stripe", linkCodeName: "GitHub", linkLive: "https://ecommerce-sanity-stripe-kindjaev.vercel.app", title: "Ecommerce Shop"},
     {id: 2, img: IMG3, linkCode: "https://github.com/kindjaev/MERN-frontend", linkCodeName: "GitHub", linkLive: "https://mern-frontend-kindjaev.vercel.app/login", title: "Workout Body"},
     {id: 3, img: IMG4, linkCode: "https://github.com/kindjaev/tenzies", linkCodeName: "GitHub", linkLive: "https://tenzies-dony-kindjaev.vercel.app/", title: "Tenzies"},
-    {id: 4, img: IMG5, linkCode: "http://github.com/", linkCodeName: "GitHub", linkLive: "http://github.com/", title: "Modern Portfolio"},
+    {id: 4, img: IMG5, linkCode: "https://github.com/kindjaev/modern_portfolio", linkCodeName: "GitHub", linkLive: "https://modern-portfolio-kindjaev.vercel.app", title: "Modern Portfolio"},
     {id: 5, img: IMG6, linkCode: "https://github.com/kindjaev/chat-app", linkCodeName: "GitHub", linkLive: "https://chat-app-kindjaev.vercel.app", title: "Chat App"},
   ]
   return (
