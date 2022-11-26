@@ -1,0 +1,105 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+/* ========== IMG =========== */
+.about_me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: 
+    linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+.about_me_img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+.about_me_img:hover {
+    transform: rotate(0);
+}
+/* ============= CARDS ============== */
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.about_card {
+    background: var(--color-bg-var);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.about_card:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+
+.about_icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    
+}
+.about_card h5 {
+    font-size: 1rem;
+}
+.about_card small{
+    color: var(--color-light)
+}
+/* ============ Description ========= */
+.about_container p {
+    margin: 2rem 0;
+    text-align: center;
+}
+/* =========== CTA ============ */
+.about_cta {
+    margin: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+/* =========== MEDIUM DEVICES =========== */
+
+@media screen and (max-width: 1024px) {
+    .about_container {
+      width: var(--container-width-md);
+      display: block;
+    }
+    .about_me {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 6rem;
+    }
+    .about_container p {
+        margin: 3rem auto;
+    }
+  }
+  /* =========== SMALL DEVICES =========== */
+  
+  @media screen and (max-width: 600px) { 
+    .about_container p {
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .about_me {
+        width: 70%;
+        margin: 0 auto 2rem;
+    }
+    .about_cards {
+       grid-template-columns: 1fr 1fr;
+       gap: 0.8rem;
+    }
+    .about_cta{
+        margin: 1rem auto;
+    }
+    .about_container .btn-primary{
+        margin-top: 0.5rem;
+    }
+  }

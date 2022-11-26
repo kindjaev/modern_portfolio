@@ -1,0 +1,36 @@
+nav {
+    background: rgba(0,0,0,0.1);
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    bottom: 0.4rem;
+    right: 50%;
+    transform: translatex(50%);
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+    width: 250px;
+    /* ======== NAV TO THE RIGHT ======== */
+    /* height: max-content; */
+    /* top: 50%; */
+    /* transform: translatey(-50%); */
+    /* right: 0rem; */
+}
+nav a {
+    background: transparent;
+    padding: 0.5rem 0.5rem;
+    color: var(--color-light);
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.2rem;
+    
+}
+nav a:hover {
+    background: rgba(0,0,0,0.3);
+}
+nav a.active {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
