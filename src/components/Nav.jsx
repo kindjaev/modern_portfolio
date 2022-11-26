@@ -3,7 +3,7 @@ import {AiOutlineHome} from "react-icons/ai"
 import {AiOutlineUser} from "react-icons/ai"
 import {MdWorkOutline} from "react-icons/md"
 import {FiMail} from "react-icons/fi"
-import {AiOutlineComment} from "react-icons/ai"
+// import {AiOutlineComment} from "react-icons/ai"
 import "./nav.css"
 import {useState} from "react"
 
@@ -12,7 +12,7 @@ function Nav() {
     {id: 0, act: true, href: "#", icon: <AiOutlineHome />},
     {id: 1, act: false, href: "#about", icon: <AiOutlineUser/>},
     {id: 2, act: false, href: "#portfolio", icon: <MdWorkOutline/>},
-    {id: 3, act: false, href: "#comments", icon: <AiOutlineComment/>},
+    // {id: 3, act: false, href: "#comments", icon: <AiOutlineComment/>},
     {id: 4, act: false, href: "#contacts", icon: <FiMail/>}
   ]
 
