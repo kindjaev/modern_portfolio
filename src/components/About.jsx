@@ -34,7 +34,7 @@ function About() {
             </div>
             )}
           </div>
-          <p>Front-End-Developer with a passion for both personal growth and software development, curios for new knowledge, easy going to work with a team, happy to receive mentorship by a senior. Ready to apply my passion and diligence for coding to a talented team to develop quality solutions.</p>
+          <p>Front-End-Developer with a passion for both personal growth and software development, curious for new knowledge, easy going to work with a team, happy to receive mentorship by a senior. Ready to apply my passion and diligence for coding to a talented team to develop quality solutions.</p>
           <div className="about_cta">
             <a href="#contacts" className="btn btn-primary">Let's talk</a>
           </div>
