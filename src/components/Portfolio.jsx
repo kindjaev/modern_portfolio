@@ -6,6 +6,7 @@ import IMG3 from "../assets/workout_body.png"
 import IMG4 from "../assets/tenzies.png"
 import IMG5 from "../assets/portfolio.png"
 import IMG6 from "../assets/chat_app.png"
+import IMG7 from "../assets/fitness.png"
 
 function Portfolio() {
   const data = [
@@ -15,6 +16,7 @@ function Portfolio() {
     {id: 3, img: IMG4, linkCode: "https://github.com/kindjaev/tenzies", linkCodeName: "GitHub", linkLive: "https://tenzies-dony-kindjaev.vercel.app/", title: "Tenzies"},
     {id: 4, img: IMG5, linkCode: "https://github.com/kindjaev/modern_portfolio", linkCodeName: "GitHub", linkLive: "https://modern-portfolio-kindjaev.vercel.app", title: "Modern Portfolio"},
     {id: 5, img: IMG6, linkCode: "https://github.com/kindjaev/chat-app", linkCodeName: "GitHub", linkLive: "https://chat-app-kindjaev.vercel.app", title: "Chat App"},
+    {id: 6, img: IMG7, linkCode: "https://github.com/kindjaev/fitness", linkCodeName: "GitHub", linkLive: "https://vercel.com/kindjaev/fitness-2", title: "Chat App"},
   ]
   return (
     <section id='portfolio'>
