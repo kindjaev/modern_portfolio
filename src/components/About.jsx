@@ -5,12 +5,15 @@ import {BsFillPeopleFill} from "react-icons/bs"
 import {CgWebsite} from "react-icons/cg"
 import "./about.css"
 
+import {data} from "../Db/data"
+const projects = data 
+
 function About() {
   const data = [
 
     {id: 0, icon: <FaAward />, title: "Experince", text: "1 year"},
     // {id: 1, icon: <BsFillPeopleFill />, title: "Clients", text: ""},
-    {id: 2, icon: <CgWebsite />, title: "Projects", text: "6"}
+    {id: 2, icon: <CgWebsite />, title: "Projects", text: projects.length}
   ]
 
   return (
