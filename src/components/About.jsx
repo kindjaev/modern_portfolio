@@ -10,7 +10,6 @@ const projects = data
 
 function About() {
   const data = [
-
     {id: 0, icon: <FaAward />, title: "Experince", text: "1 year"},
     // {id: 1, icon: <BsFillPeopleFill />, title: "Clients", text: ""},
     {id: 2, icon: <CgWebsite />, title: "Projects", text: projects.length}

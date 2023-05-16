@@ -12,12 +12,11 @@ function Experience() {
     {id: 3, title: "JS", text: "Experinced"},
     {id: 4, title: "Bootstrap", text: "Basic"},
     {id: 5, title: "Tailwind", text: "Basic"},
-    {id: 6, title: "NextJS", text: "Basic"},
   ]
   const backendData = [
     {id: 0, title: "NodeJS", text: "basic"},
     {id: 1, title: "MongoDB", text: "basic"},
-    {id: 2, title: "Sanity", text: "basic"},
+    {id: 2, title: "PHP", text: "basic"},
   ]
   return (
     <section id='experince'>
