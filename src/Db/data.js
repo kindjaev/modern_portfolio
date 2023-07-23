@@ -12,7 +12,7 @@ export const data = [
     img: IMG1,
     linkCode: "https://github.com/kindjaev/YelpCamp",
     linkCodeName: "GitHub",
-    linkLive: "https://yelp-camp-va84.onrender.com",
+    linkLive: "https://sore-bee-cap.cyclic.app",
     title: "YelpCamp",
   },
   {
