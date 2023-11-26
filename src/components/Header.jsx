@@ -1,11 +1,9 @@
-import "./header.css"
-import React from 'react'
-import CV from "../assets/frontend_cv.pdf"
-import ME from "../assets/dony_ukr.jpg"
-import HeaderSocials from './HeaderSocials'
-import {BsFillArrowDownSquareFill} from "react-icons/bs"
-
-
+import "./header.css";
+import React from "react";
+import CV from "../assets/frontend_cv.docx";
+import ME from "../assets/dony_ukr.jpg";
+import HeaderSocials from "./HeaderSocials";
+import { BsFillArrowDownSquareFill } from "react-icons/bs";
 
 function Header() {
   return (
@@ -16,20 +14,26 @@ function Header() {
         <h5 className="text-light">Front-End Developer</h5>
 
         <div className="cta">
-          <a className="btn" href={CV} download>Download CV</a>
-          <a className="btn btn-primary" href="#contacts">Contacts</a>
+          <a className="btn" href={CV} download>
+            Download CV
+          </a>
+          <a className="btn btn-primary" href="#contacts">
+            Contacts
+          </a>
         </div>
-         
+
         <HeaderSocials />
 
-        <a href="#contacts" className="scroll_down"><BsFillArrowDownSquareFill /></a>
+        <a href="#contacts" className="scroll_down">
+          <BsFillArrowDownSquareFill />
+        </a>
 
         <div className="me">
           <img src={ME} alt="" />
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
