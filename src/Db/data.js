@@ -8,14 +8,6 @@ import IMG7 from "../assets/fitness.png";
 
 export const data = [
   {
-    id: 0,
-    img: IMG1,
-    linkCode: "https://github.com/kindjaev/YelpCamp",
-    linkCodeName: "GitHub",
-    linkLive: "https://sore-bee-cap.cyclic.app",
-    title: "YelpCamp",
-  },
-  {
     id: 1,
     img: IMG2,
     linkCode: "https://github.com/kindjaev/ecommerce_sanity_stripe",
